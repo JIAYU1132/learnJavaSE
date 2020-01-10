@@ -5,7 +5,7 @@ public class Test {
         linkedList.addFirst(2);
         linkedList.addFirst(3);
         linkedList.addFirst(4);
-
+        linkedList.display();
     }
 
     public static void main(String[] args) {

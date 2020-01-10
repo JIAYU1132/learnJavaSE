@@ -1,3 +1,4 @@
+
 class Node {
     //另外一个类,表示一个节点
     public int data;   //数据
@@ -24,5 +25,9 @@ public class LinkedList {
         node.next = head;
         head = node;
     }
-
+    public void display() {
+        for(Node cur = head; cur != null; cur = cur.next) {
+            System.out.print(cur.data + " ");
+        }
+    }
 }
